@@ -1,0 +1,16 @@
+class Book{
+    String title;
+    int price;
+    Book(String t, int p){
+        title = t;
+        price = p;
+    }
+    void display(){
+        System.out.println(title + "costs ₹" + price);
+    }
+    public static void main(String[] args) {
+        Book b1 = new Book("Reminders of him ", 200);
+        b1.display();
+    }
+
+}
