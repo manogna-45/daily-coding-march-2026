@@ -1,0 +1,14 @@
+class ThisKeywordEg{
+    String name;
+    ThisKeywordEg(String name){
+        this.name = name;
+        
+    }
+    void display(){
+        System.out.println(name);
+    }
+    public static void main(String[] args) {
+        ThisKeywordEg s1 = new ThisKeywordEg("Manogna");
+        s1.display();
+    }
+}
