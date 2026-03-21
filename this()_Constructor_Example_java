@@ -1,0 +1,24 @@
+class EmployeeUsingThis{
+    String name;
+    int salary;
+    
+    EmployeeUsingThis(){
+        this("Manogna",2000000);
+        
+    }
+    EmployeeUsingThis(String name, int salary){
+        this.name = name;
+        this.salary = salary;
+
+    }void display(){
+        System.out.println(name + " " + salary);
+    
+    }
+    public static void main(String[] args) {
+        EmployeeUsingThis e1 = new EmployeeUsingThis();
+        EmployeeUsingThis e2 = new EmployeeUsingThis();
+        e1.display();
+        e2.display();
+    }
+
+}
