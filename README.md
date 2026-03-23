@@ -13,3 +13,4 @@ Programs included:
 - this keyword example
 - this() constructor example
 - Array input
+- Minimum Elements in an array
