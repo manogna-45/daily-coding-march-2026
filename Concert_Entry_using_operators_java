@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+class ConcertEntry{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age:");
+        int age = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Do you have a ticket:");
+        String HaveTicket = sc.nextLine();
+        System.out.println("Are you invited by a VIP?");
+        String HaveInvited = sc.nextLine();
+        if(age >= 18 || HaveTicket.equalsIgnoreCase("yes") || HaveInvited.equalsIgnoreCase("yes")){
+            System.out.println("Person is allowed");
+        }
+        else{
+            System.out.println("Person is not allowed");
+        }
+    }
+}
