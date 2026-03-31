@@ -19,4 +19,5 @@ Programs included:
 - Month numbers using switch
 - Price of drinking using switch
 - Movie ticket eligibility using operators
-- COncert entry using operators
+- Concert entry using operators
+- Eligible to vote
