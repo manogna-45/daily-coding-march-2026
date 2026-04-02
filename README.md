@@ -20,4 +20,5 @@ Programs included:
 - Price of drinking using switch
 - Movie ticket eligibility using operators
 - Concert entry using operators
-- Eligible to vote
+- Eligible to vote using operators
+- Multiplication table using for loop
