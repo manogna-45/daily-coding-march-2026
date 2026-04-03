@@ -22,3 +22,4 @@ Programs included:
 - Concert entry using operators
 - Eligible to vote using operators
 - Multiplication table using for loop
+- Password check using while
